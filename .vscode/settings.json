@@ -7,5 +7,7 @@
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
-  }
+  },
+  "python.pythonPath": "api/.venv/Scripts/python3",
+  "python-envs.defaultEnvManager": "ms-python.python:pipenv"
 }

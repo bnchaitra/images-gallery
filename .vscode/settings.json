@@ -9,5 +9,15 @@
     "source.fixAll.eslint": "explicit"
   },
   "python.pythonPath": "api/.venv/Scripts/python3",
-  "python-envs.defaultEnvManager": "ms-python.python:pipenv"
+  "python-envs.defaultEnvManager": "ms-python.python:pipenv",
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  }
 }
+
